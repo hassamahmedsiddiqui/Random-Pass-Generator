@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500;600;700;800&family=Macondo&family=Poppins:wght@200;300;400;500;600;700;800&family=Sacramento&family=Tsukimi+Rounded:wght@300;400;500;600;700&family=Varela+Round&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --primaryColor: #00ccff;
+    --secondaryColor: #008b8b ;
+    --textColorDark: #111111;
+    --textColorMedium: #555555;
+    --textColorLight: #ffffff;
+    --bananaColor : #ffff31 ;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    /* height: 100vh; */
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+.display{
+    width: 80%;
+    /* max-width: 300px;     */
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 26px;
+    /* background-color: var(--textColorLight); */
+    background-color: transparent;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid var(--primaryColor);
+    box-shadow: rgba(195, 0, 56, 0.8) 0px 18px 70px 0px;
+}
+
+.container h1{
+    font-size: 3.2rem;
+    font-weight: 650;
+    letter-spacing: 2px;
+    color: var(--primaryColor);
+    font-family: 'Gruppo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+    
+
+}
+.container h1 span{
+ color: var(--bananaColor);
+ font-size: 4rem;
+ font-family: 'Open Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+border-bottom: 2px solid var(--bananaColor);
+padding: 5px;
+}
+
+.display img{
+    width: 35px;
+    cursor: pointer;
+}
+
+.display input{
+    width: 90%;
+    /* max-width: 400px; */
+    height: 40px;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    color: var(--textColorLight);
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
+}
+
+.container button img{
+    width: 24px;
+    margin-right: 5px;
+}
+.container button{
+    width: 185px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: var(--bananaColor);
+    font-size: 1.6rem;
+    background-color: var(--secondaryColor);
+    font-family: 'Permanent Marker', cursive;
+    border: 2px solid var(--bananaColor);
+    border-radius: 10px;
+
+}
+
+.container button:hover{
+    color: var(--textColorDark);
+    background-color: var(--primaryColor);
+    transition: 0.4s;
+    border: 2px solid var(--primaryColor);
+    cursor: pointer;
+}
